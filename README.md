@@ -8,7 +8,7 @@
 
 
 #### Usage:
-⋅⋅* You need to provide the URL to the folder you created earlier in you server to the PhpRestFileUploader JAVA API as serverURL in the constructor (exemple: "localhost/foldername").
+* You need to provide the URL to the folder you created earlier in you server to the PhpRestFileUploader JAVA API as serverURL in the constructor (exemple: "localhost/foldername").
 
 
 	# Your uploaded files will be under a folder named "uploads" under the folder you created earlier.
