@@ -36,7 +36,7 @@
 * http://localhost/exemplefolder
 * http://localhost/exemplefolder/
 
-files URL: 
-	   http://localhos/exemplefolder/uploads/f_5ac66af018455.jpg
-	   http://localhos/exemplefolder/uploads/f_c4zd625c12785.pdf
-	   http://localhos/exemplefolder/uploads/f_t4ce8a4135btw.txt               
+#### Files URL: 
+* http://localhos/exemplefolder/uploads/f_5ac66af018455.jpg
+* http://localhos/exemplefolder/uploads/f_c4zd625c12785.pdf
+* http://localhos/exemplefolder/uploads/f_t4ce8a4135btw.txt               
