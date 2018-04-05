@@ -49,7 +49,8 @@
 
 ### Code snippets
 #### Upload & Delete
-    
+
+```java
     // ...
     import java.io.IOException;
     import java.net.ProtocolException;
@@ -72,9 +73,12 @@
         
         // ...
     }
+```
     
 #### Get file extension
 
+```java
     // ...
     System.out.println(FileUploader.getFileExtension("C:/Users/Public/test.png")); /*This will print "png"*/
     // ...
+```
