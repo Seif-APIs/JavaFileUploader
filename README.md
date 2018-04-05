@@ -1,4 +1,8 @@
 # PhpRestFileUploader
+Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
 
 Server configuration:
 Markup : 1. Create a folder inside your server (www for wamp).
