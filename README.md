@@ -10,13 +10,11 @@
 #### Usage:
 * You need to provide the URL to the folder you created earlier in you server to the PhpRestFileUploader JAVA API as serverURL in the constructor (exemple: "localhost/foldername").
 
+* Your uploaded files will be under a folder named "uploads" under the folder you created earlier.
 
-	# Your uploaded files will be under a folder named "uploads" under the folder you created earlier.
+* To get an uploaded file you need the URL to the "uploads" folder and the file name as stored in the server (exemple: http://localhost/foldername/uploads/filename.extension)
 
-
-	# To get an uploaded file you need the URL to the "uploads" folder and the file name as stored in the server (exemple: http://localhost/foldername/uploads/filename.extension)
-
-	# PS: File name as stored in server is the return value for the upload method in the PhpRestFileUploader JAVA API   
+* PS: File name as stored in server is the return value for the upload method in the PhpRestFileUploader JAVA API   
 
 
 
