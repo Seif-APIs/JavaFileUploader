@@ -31,10 +31,10 @@
 #### URLs for this tree will be:
 
 ##### ServerUrl: 
-	* localhost/exemplefolder
-	* localhost/exemplefolder/
-	* http://localhost/exemplefolder
-	* http://localhost/exemplefolder/
+* localhost/exemplefolder
+* localhost/exemplefolder/
+* http://localhost/exemplefolder
+* http://localhost/exemplefolder/
 
 files URL: 
 	   http://localhos/exemplefolder/uploads/f_5ac66af018455.jpg
