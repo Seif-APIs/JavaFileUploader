@@ -8,10 +8,10 @@
 4. And another item.
 
 Server configuration:
-Markup : 1. Create a folder inside your server (www for wamp).
-	 2. Extract scripts.rar archive.
-	 3. Copy the two php files (upload.php and delete.php) inside the folder you created earlier.
-	 4. Done.
+1. Create a folder inside your server (www for wamp).
+2. Extract scripts.rar archive.
+3. Copy the two php files (upload.php and delete.php) inside the folder you created earlier.
+4. Done.
 
 
 Usage:
