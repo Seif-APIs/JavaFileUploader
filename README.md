@@ -20,21 +20,14 @@
 
 
 ### Server folder tree exemple (wamp):
-	www:
-          |
-          |--- exmplefolder
-		    |
-                    |--- upload.php
-		    |
-                    |--- delete.php
-                    |
-                    |--- uploads
-			    |
-                            |--- f_5ac66af018455.jpg
-			    |
-                            |--- f_c4zd625c12785.pdf
-			    |
-                            |--- f_t4ce8a4135btw.txt
+www:
+	|-- exmplefolder
+		|-- upload.php
+		|-- delete.php
+		|-- uploads
+			|-- f_5ac66af018455.jpg
+			|-- f_c4zd625c12785.pdf
+			|-- f_t4ce8a4135btw.txt
 
 #### URLs for this tree will be:
 
