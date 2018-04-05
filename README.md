@@ -14,12 +14,12 @@
 
 * To get an uploaded file you need the URL to the "uploads" folder and the file name as stored in the server.<br/>(exemple: http://localhost/foldername/uploads/filename.extension)
 
-* PS: File name as stored in server is the return value for the upload method in the PhpRestFileUploader JAVA API   
+* PS: File name as stored in server is the return value of the upload method in the PhpRestFileUploader JAVA API   
 
 
 
 
-Server folder tree exemple (wamp):
+### Server folder tree exemple (wamp):
 	www:
           |
           |--- exmplefolder
@@ -36,7 +36,7 @@ Server folder tree exemple (wamp):
 			    |
                             |--- f_t4ce8a4135btw.txt
 
-URLs for this tree will be:
+#### URLs for this tree will be:
 
 	ServerUrl: 
                    localhost/exemplefolder
