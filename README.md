@@ -16,25 +16,14 @@
 
 * PS: File name as stored in server is the return value of the upload method in the PhpRestFileUploader JAVA API   
 
-|-- .bowerrc
-    |-- .jshintrc
-    |-- .jshintrc2
-    |-- Gruntfile.js
-    |-- README.md
-    |-- bower.json
-    |-- karma.conf.js
-    |-- package.json
-    |-- app
-
-
 ### Server folder tree exemple (wamp):
-www:
-	|-- exmplefolder
-		|-- upload.php
-		|-- delete.php
-		|-- uploads
-			|-- f_5ac66af018455.jpg
-			|-- f_c4zd625c12785.pdf
+www:<br/>
+	|-- exmplefolder<br/>
+		|-- upload.php<br/>
+		|-- delete.php<br/>
+		|-- uploads<br/>
+			|-- f_5ac66af018455.jpg<br/>
+			|-- f_c4zd625c12785.pdf<br/>
 			|-- f_t4ce8a4135btw.txt
 
 #### URLs for this tree will be:
