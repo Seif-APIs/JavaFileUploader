@@ -16,6 +16,7 @@
 
 * PS: File name as stored in server is the return value of the upload method in the PhpRestFileUploader JAVA API   
 
+### Server folder tree exemple (wamp):
 ```bash
 ├── www
 │   ├── exmplefolder
@@ -27,26 +28,15 @@
 │   │   │   ├── f_t4ce8a4135btw.txt
 ```
 
-
-### Server folder tree exemple (wamp):
-www:<br/>
-	|-- exmplefolder<br/>
-		|-- upload.php<br/>
-		|-- delete.php<br/>
-		|-- uploads<br/>
-			|-- f_5ac66af018455.jpg<br/>
-			|-- f_c4zd625c12785.pdf<br/>
-			|-- f_t4ce8a4135btw.txt
-
 #### URLs for this tree will be:
 
-	ServerUrl: 
-                   localhost/exemplefolder
-		   localhost/exemplefolder/
-		   http://localhost/exemplefolder
-		   http://localhost/exemplefolder/
+##### ServerUrl: 
+	* localhost/exemplefolder
+	* localhost/exemplefolder/
+	* http://localhost/exemplefolder
+	* http://localhost/exemplefolder/
 
-	files URL: 
-                   http://localhos/exemplefolder/uploads/f_5ac66af018455.jpg
-                   http://localhos/exemplefolder/uploads/f_c4zd625c12785.pdf
-                   http://localhos/exemplefolder/uploads/f_t4ce8a4135btw.txt               
+files URL: 
+	   http://localhos/exemplefolder/uploads/f_5ac66af018455.jpg
+	   http://localhos/exemplefolder/uploads/f_c4zd625c12785.pdf
+	   http://localhos/exemplefolder/uploads/f_t4ce8a4135btw.txt               
