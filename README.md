@@ -44,3 +44,37 @@
 * http://localhos/exemplefolder/uploads/f_5ac66af018455.jpg
 * http://localhos/exemplefolder/uploads/f_c4zd625c12785.pdf
 * http://localhos/exemplefolder/uploads/f_t4ce8a4135btw.txt               
+
+- - -
+
+### Code snippets
+#### Upload & Delete
+    
+    // ...
+    import java.io.IOException;
+    import java.net.ProtocolException;
+    import rest.file.uploader.tn.FileUploader;
+    // ...
+    
+    public static void main(String[] args) throws ProtocolException, IOException{
+        // ...
+        FileUploader fu = new FileUploader("localhost/exemplefolder");
+        
+        //Upload
+        String fileNameInServer = fu.upload("C:/Users/Public/test.pdf");
+        
+        // ...
+        
+        //Delete
+        if(fu.delete(fileNameInServer)){
+            System.out.println("File "+fileNameInServer+" deleted.");
+        }
+        
+        // ...
+    }
+    
+#### Get file extension
+
+    // ...
+    System.out.println(FileUploader.getFileExtension("C:/Users/Public/test.png")); /*This will print "png"*/
+    // ...
