@@ -1,8 +1,11 @@
 # PhpRestFileUploader
-Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
+
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
 
 Server configuration:
 Markup : 1. Create a folder inside your server (www for wamp).
