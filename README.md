@@ -1,17 +1,10 @@
 # PhpRestFileUploader
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
 Server configuration:
-1. Create a folder inside your server (www for wamp).
-2. Extract scripts.rar archive.
-3. Copy the two php files (upload.php and delete.php) inside the folder you created earlier.
-4. Done.
+	1. Create a folder inside your server (www for wamp).
+	2. Extract scripts.rar archive.
+	3. Copy the two php files (upload.php and delete.php) inside the folder you created earlier.
+	4. Done.
 
 
 Usage:
