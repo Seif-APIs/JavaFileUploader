@@ -17,24 +17,14 @@
 * PS: File name as stored in server is the return value of the upload method in the PhpRestFileUploader JAVA API   
 
 ```bash
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
-├── README.md
-├── package.json
-├── bower.json (if using bower)
-└── .gitignore
+├── www
+│   ├── exmplefolder
+│   │   ├── **/*.upload.php
+│   │   ├── **/*.delete.php
+│   │   ├── **/*.uploads
+│   │   │   ├── **/*.f_5ac66af018455.jpg
+│   │   │   ├── **/*.f_c4zd625c12785.pdf
+│   │   │   ├── **/*.f_t4ce8a4135btw.txt
 ```
 
 
