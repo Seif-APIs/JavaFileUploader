@@ -16,7 +16,7 @@
 
 * To get an uploaded file you need the URL to the "uploads" folder and the file name as stored in the server.<br/>(exemple: http://localhost/foldername/uploads/filename.extension)
 
-* PS: File name as stored in server is the return value of the upload method in the PhpRestFileUploader JAVA API
+* PS: File name as stored in server is the return value of the upload method in the JavaFileUploader API
 
 - - - -
 
