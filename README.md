@@ -1,4 +1,4 @@
-# PhpRestFileUploader V1.0
+# JavaFileUploader V1.0
 
 ### Server configuration:
 1. Create a folder inside your server (www for wamp).
@@ -82,3 +82,6 @@
     System.out.println(FileUploader.getFileExtension("C:/Users/Public/test.png")); /*This will print "png"*/
     // ...
 ```
+
+#### Potential errors:
+* Try changing your server limits (post_max_size, upload_max_filesize, memory_limit) to -1 in the server's php.ini file.
