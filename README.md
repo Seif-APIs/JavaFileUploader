@@ -83,5 +83,7 @@
     // ...
 ```
 
+- - -
+
 #### Potential errors:
 * Try changing your server limits (post_max_size, upload_max_filesize, memory_limit) to -1 in the server's php.ini file.
