@@ -41,9 +41,9 @@
 * http://localhost/exemplefolder/
 
 #### Files URL: 
-* http://localhos/exemplefolder/uploads/f_5ac66af018455.jpg
-* http://localhos/exemplefolder/uploads/f_c4zd625c12785.pdf
-* http://localhos/exemplefolder/uploads/f_t4ce8a4135btw.txt               
+* http://localhost/exemplefolder/uploads/f_5ac66af018455.jpg
+* http://localhost/exemplefolder/uploads/f_c4zd625c12785.pdf
+* http://localhost/exemplefolder/uploads/f_t4ce8a4135btw.txt               
 
 - - -
 
