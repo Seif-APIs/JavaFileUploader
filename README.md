@@ -84,7 +84,7 @@
 ```
 
 # Usage with Symfony
-To make this uploader compatible with Symfony, place the scripts inside your project web folder, the scripts will then create a folder named "Uploads", all uploaded files will be saved inside that folder. To change the upload destination folder, open the upload.php script and change the folder path.
+To make this uploader compatible with Symfony, place the scripts inside your project web folder, the scripts will then create a folder named "Uploads", all uploaded files will be saved inside that folder. To change the upload destination folder, open the upload.php script and change the folder path (do the same for delete.php script).
 
 The upload method will return a string consisting of the file name as stored in the service, concat it with your server web folder url to get the url to the uploaded image.
 ### Exemple
