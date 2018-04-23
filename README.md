@@ -88,7 +88,30 @@ To make this uploader compatible with Symfony, place the scripts inside your pro
 
 The upload method will return a string consisting of the file name as stored in the service, concat it with your server web folder url to get the url to the uploaded image.
 ### Exemple
-    http://localhost/[Project_Name]/web/uploads/[FILE_NAME]
+    http://localhost/[PROJECT_NAME]/web/uploads/[FILE_NAME]
+
+### Code snippets
+```java
+    // ...
+    import rest.file.uploader.tn.FileUploader;
+    // ...
+    
+    try{
+        FileUploader fu = new FileUploader("localhost/[PROJECT_NAME]/web/");
+        
+        //Upload
+        String fileNameInServer = fu.upload("[FILE_PATH]");
+        
+        //Delete
+        if(fu.delete(fileNameInServer)){
+            System.out.println("File "+fileNameInServer+" deleted.");
+        }
+    }catch(Exception ex){
+        ex.printStackTrace();
+    }
+    
+    // ...
+```
 
 - - -
 
