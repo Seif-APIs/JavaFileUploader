@@ -10,7 +10,7 @@
 ### Usage:
 * The JAR file provided should be included as a library in your JAVA project
 
-* You need to provide the URL to the folder you created earlier in you server to the PhpRestFileUploader JAVA API as serverURL in the constructor.<br/>(exemple: "localhost/foldername")
+* You need to provide the URL to the folder you created earlier in you server to the JavaFileUploader JAVA API as serverURL in the constructor.<br/>(exemple: "localhost/foldername")
 
 * Your uploaded files will be under a folder named "uploads" under the folder you created earlier.
 
